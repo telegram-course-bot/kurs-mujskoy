@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Мужской Курс — Онлайн</title>
+  <meta name="description" content="Курс для мужчин: практика, уверенность, настоящие истории. Всё, чтобы ты начал действовать.">
+  <meta property="og:title" content="Мужской Курс — Онлайн" />
+  <meta property="og:description" content="Практический курс по уверенным знакомствам, поддержка клуба, реальные сценарии." />
+  <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(135deg, #0a3557, #174c80);
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    header h1 { font-size: 2.8rem; }
+    header p { font-size: 1.1rem; max-width: 700px; margin: 1rem auto 2rem; }
+    .cta-btn {
+      background: #ffffff;
+      color: #0a3557;
+      padding: 14px 28px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      border: 2px solid white;
+      transition: 0.3s ease;
+    }
+    .cta-btn:hover {
+      background: #0a3557;
+      color: white;
+    }
+    nav {
+      background: white;
+      text-align: center;
+      padding: 0.8rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #0a3557;
+      font-weight: 600;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    h2 { color: #0a3557; }
+    ul { padding-left: 1.2rem; }
+    blockquote {
+      border-left: 4px solid #0a3557;
+      margin: 1rem 0;
+      padding-left: 1rem;
+      background: #f1f5f9;
+    }
+    .testimonial {
+      background: #eef2f7;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-left: 4px solid #0a3557;
+      font-style: italic;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header data-aos="fade-down">
+  <h1>Мужской Курс</h1>
+  <p>Для мужчин, которые устали упускать шанс. Истории, поддержка и инструменты, чтобы начать действовать уверенно.</p>
+  <a href="#form" class="cta-btn">Получить доступ</a>
+</header>
+
+<nav>
+  <a href="#about">О курсе</a>
+  <a href="#inside">Что внутри</a>
+  <a href="#stories">Истории</a>
+  <a href="#faq">FAQ</a>
+  <a href="#form">Записаться</a>
+</nav>
+
+<section id="about" data-aos="fade-up">
+  <h2>О курсе</h2>
+  <p>Это не просто теория. Это практический путь, собранный из сотен успешных подходов, переписок, сценариев. Ты получаешь опыт, который уже сработал у других мужчин — и доступ к сообществу, которое поддержит.</p>
+</section>
+
+<section id="inside" data-aos="fade-up">
+  <h2>Что внутри курса</h2>
+  <ul>
+    <li>Рабочие фразы и сценарии</li>
+    <li>Как написать, чтобы получила интерес</li>
+    <li>Истории, которые реально сработали</li>
+    <li>Ошибки, которых стоит избегать</li>
+    <li>Поддержка мужского клуба 24/7</li>
+  </ul>
+</section>
+
+<section id="stories" data-aos="fade-up">
+  <h2>Истории, которые сработали</h2>
+  <blockquote>«У меня дома есть нормальные пельмени…» — и это сработало. Встретились, поговорили. Без пафоса, просто по-мужски.</blockquote>
+  <blockquote>«Привет. Без пафоса — ты реально классная...» — голосовое в Инсте. Ответила. Пошли гулять. Работает, если говоришь как человек.</blockquote>
+  <div class="testimonial">«Я боялся писать первой. В клубе дали фразу. Она сработала — мы уже встретились дважды. Спасибо!» — Алексей, 31</div>
+</section>
+
+<section id="faq" data-aos="fade-up">
+  <h2>Вопросы и ответы</h2>
+  <p><strong>Это пикап?</strong> — Нет. Это честный и сильный мужской подход без клише.</p>
+  <p><strong>А если не получится?</strong> — Получится. Мы разбираем ошибки и даём поддержку внутри клуба.</p>
+</section>
+
+<section id="form" data-aos="fade-up">
+  <h2>Оставь заявку</h2>
+  <p>Осталось <strong>5 мест</strong> в этом потоке. Не пропусти.</p>
+  <iframe src="https://tally.so/embed/w4gKda?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy"></iframe>
+</section>
+
+<footer>
+  © Мужской Курс, 2025 — Только по делу. Только для своих.
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+</body>
+</html>
