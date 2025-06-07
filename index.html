@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Мужской Курс — Онлайн</title>
+  <meta name="description" content="Уверенность. Настоящие истории. Мужской клуб.">
+  <meta property="og:title" content="Мужской Курс — Онлайн" />
+  <meta property="og:description" content="Прокачай уверенность. Присоединяйся к закрытому мужскому клубу.">
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; background: #f7f8fa; }
+    header {
+      background: linear-gradient(135deg, #091b2a, #0d3c68);
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    header h1 { font-size: 3rem; margin-bottom: 1rem; }
+    header p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; }
+    .cta-btn {
+      background: white;
+      color: #0d3c68;
+      font-weight: bold;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    h2 { color: #0d3c68; }
+    footer {
+      background: #0d3c68;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Мужской Курс</h1>
+    <p>Практика. Истории. Честный путь к уверенности с поддержкой мужского клуба.</p>
+    <button class="cta-btn" onclick="document.getElementById('join').scrollIntoView({behavior: 'smooth'});">Вступить в клуб</button>
+  </header>
+
+  <section data-aos="fade-up">
+    <h2>Что внутри курса?</h2>
+    <ul>
+      <li>💬 Сценарии переписок</li>
+      <li>📍 Истории, которые сработали</li>
+      <li>🧠 Ошибки, которых ты больше не допустишь</li>
+      <li>🛡 Поддержка мужского клуба</li>
+    </ul>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>Истории, которые сработали</h2>
+    <blockquote>«Привет. Не псих, не бот. Просто нормальный парень...» — и пошли гулять. Потому что сказал просто и уверенно.</blockquote>
+    <blockquote>«Умею варить пельмени. Не подкат, просто повод поесть без пафоса». — Сработало.</blockquote>
+  </section>
+
+  <section data-aos="fade-up" id="join">
+    <h2>Вступить в клуб</h2>
+    <p>Оставь свой email — и получи доступ:</p>
+    <form name="join-form" netlify>
+      <input type="email" name="email" required placeholder="Твой email" style="padding:0.5rem;width:80%;max-width:300px;">
+      <br/><br/>
+      <button class="cta-btn" type="submit">🚀 Хочу в клуб</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© Мужской Курс 2025. Все права защищены.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
